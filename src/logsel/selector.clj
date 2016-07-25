@@ -157,7 +157,7 @@
 
 
 ;; Let's look at the node normalization approach.  To start, we need to turn
-;; all nodes into Datoms (more or less)
+;; all nodes into triples/Datoms (more or less)
 
 (defn make-id []
   (gensym "id_"))
